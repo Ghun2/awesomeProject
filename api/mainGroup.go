@@ -14,7 +14,7 @@ func MainGroup(e *echo.Echo) {
 	e.GET("/cats/:data", handlers.GetCats)
 
 	e.GET("/cats", func (c echo.Context) error {
-		return c.String(http.StatusOK, "Hel412lo, Wo123rld!")
+		return c.String(http.StatusOK, "Hel412312312lo, Wo123rld!")
 	})
 
 	e.POST("/cats", handlers.AddCat)
